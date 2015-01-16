@@ -30,7 +30,7 @@ public class AffCarte extends Affichage implements MouseListener {
 			}
 		}
 		for(int i = 0; i < this.carte.jardiniers.size()-1; i++){
-			g.drawImage(this.carte.jardiniers.get(i).getImage(),  //yoooooimage d'origine dont on va dessiner une portion d�finie par ori
+			g.drawImage(this.carte.jardiniers.get(i).getImage(),  //image d'origine dont on va dessiner une portion d�finie par ori
 			this.carte.jardiniers.get(i).posX, this.carte.jardiniers.get(i).posY,  //position du premier coin de l'image a dessiner
 			this.carte.jardiniers.get(i).posX + this.carte.jardiniers.get(i).widthCarte, this.carte.jardiniers.get(i).posY + this.carte.jardiniers.get(i).heightCarte, //position du 2eme coin de l'image � dessiner
 			this.carte.jardiniers.get(i).oriX, this.carte.jardiniers.get(i).oriY,  //position du premier coin de la portion d'image d'origine
